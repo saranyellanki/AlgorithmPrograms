@@ -23,9 +23,9 @@ public class Permutations {
             list.add(current);
         }
         for (int i = 0; i < updated.length(); i++) {
-            String newCandidate = current + updated.charAt(i);
-            String newRemaining = updated.substring(0, i) + updated.substring(i + 1);
-            permutations(newCandidate, newRemaining);
+            String newCurrent = current + updated.charAt(i);
+            String newUpdated = updated.substring(0, i) + updated.substring(i + 1);
+            permutations(newCurrent, newUpdated);
         }
     }
 
