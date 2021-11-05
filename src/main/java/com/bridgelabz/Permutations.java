@@ -12,7 +12,6 @@ public class Permutations {
 
     /**
      * permutations method is a recursive function
-     *
      * @param current string is updated with character to be fixed everytime
      * @param updated string is the updated string when reaches empty recursive function is returned
      */
@@ -32,7 +31,6 @@ public class Permutations {
 
     /**
      * main method to implement the permutations of the given string
-     *
      * @param args command line arguments
      */
     public static void main(String[] args) {
