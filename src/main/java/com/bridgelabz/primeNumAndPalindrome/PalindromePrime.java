@@ -1,9 +1,9 @@
-package com.bridgelabz;
+package com.bridgelabz.primeNumAndPalindrome;
 
 import java.util.ArrayList;
 
-import static com.bridgelabz.PrimeNumbers.primeNumber;
-import static com.bridgelabz.ReverseOfNumber.reverseNumber;
+import static com.bridgelabz.primeNumAndPalindrome.PrimeNumbers.primeNumber;
+import static com.bridgelabz.primeNumAndPalindrome.ReverseOfNumber.reverseNumber;
 
 /**
  * Palindrome prime number class which imported Prime number class
